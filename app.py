@@ -3,7 +3,6 @@ import tornado.autoreload
 import tornado.httpserver
 import tornado.ioloop
 import tornado.web
-from tornado.options import options
 from configuration import config
 import handlers
 
@@ -16,7 +15,7 @@ class Application(tornado.web.Application):
             (r'/', handlers.MainHandler),
         ]
         settings = {
-            "template_path": config.TEMPLATE_PATH,
+            "template_path":  config.TEMPLATE_PATH,
             "static_path": config.STATIC_PATH,
             "debug": config.DEBUG,
             "compress_response": config.COMPRESS_RESPONSE
