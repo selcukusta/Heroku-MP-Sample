@@ -1,0 +1,24 @@
+    body {
+      padding-top: 5px;
+    }
+    
+    .panel-title {
+      font-size: 28pt;
+    }
+    
+    .number-label {
+      font-size: 42pt;
+    }
+    
+    .starter-template {
+      text-align: center;
+    }
+
+    .jumbotron h1{
+      font-size:28pt;
+      font-weight: bold;
+    }
+
+    .jumbotron p{
+      font-size:14pt;
+    }
